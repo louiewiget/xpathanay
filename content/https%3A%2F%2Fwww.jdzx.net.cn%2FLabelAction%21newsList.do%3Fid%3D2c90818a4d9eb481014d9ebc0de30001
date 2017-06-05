@@ -1,0 +1,186 @@
+
+
+
+
+
+
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
+		<title>国家卫生计生委卫生和计划生育监督中心</title>
+		<link href="style/indexNew.css" rel="stylesheet" type="text/css" />
+		<script src="script/jquery.js"></script>
+		<script src="script/public.js"></script>
+		<script>
+$(function(){
+	var newsSubId=$(".tab_select").next("ul").find("li").eq(0).find("a").attr("value");
+	$(".tab_select").next("ul").show();
+	$(".tab_select").next("ul").find("li").eq(0).find("a").css("color","#ff4800");
+var type=$(".select_text").find("a").attr("value");
+//默认选中的新闻 
+if("2c90818a4deae652014debca35cb0002"==type){
+	$("#dq").show();
+}
+if(type=='40288883088f0a1801089055b4020001'){
+		//中心简介
+		$("#newsText").html("<iframe src='label/zxjj.html'  name='newList' width='700px;' scrolling='no' frameborder='0'  id='zxjj'></iframe>")
+}else if(type=='40288883088f0a180108905604740002'){
+		//中心领导
+		$("#newsText").html("<iframe src='label/zxld.html'  name='newList' width='800px;' scrolling='no' frameborder='0'  id='zxld' ></iframe>")
+}else if(type=='40288883088f0a180108905664760003'){
+		//机构设置及职能
+		$("#newsText").html("<iframe src='LabelAction!getJgzlsz.do' name='jgzlseList' id='Iframe'  width='700px;' scrolling='no' frameborder='0'   ></iframe>")
+}else if(type=='2c90818a4d9d3a29014d9d4dd0ff0001'){
+		//联系我们
+		$("#newsText").html("<iframe src='label/lxwm.jsp'  name='lxwm' width='700px;' scrolling='no' frameborder='0'  id='lxwm'></iframe>")
+}else if(type=='2c90818a4d9d3a29014d9d4fc2fe0003'){
+		//中心办公楼地理位置示意图
+		$("#newsText").html("<iframe src='label/wzyst.jsp'  name='lxwm' width='700px;' scrolling='no' frameborder='0'  id='wzt'></iframe>")
+}else{
+	if(newsSubId!=null && newsSubId.length>0){
+		$("#newsText").html("<iframe src='LabelAction!getNewsByType.do?parentId="+newsSubId+"'  id='newsList' name='newList' width='715px;' scrolling='no' frameborder='0' ></iframe>")
+	}else{
+		$("#newsText").html("<iframe src='LabelAction!getNewsByType.do?parentId="+type+"'   id='newsList' name='newList' width='715px;' scrolling='no' frameborder='0'  	 ></iframe>")
+	}
+}
+//绑定
+	$("#tab div").click(
+		function() {
+			var $divs = $(this);
+			$divs.addClass("tab_select").siblings().removeClass("tab_select");
+			var $uls = $divs.next("ul");
+			var parentText=$divs.find("a").text();
+			$("#thisText").text(">"+parentText);
+			$divs.find("a").css("color","#FFF").parent().parent().siblings().find("a").css("color","#6092db");
+			var parentId=$divs.find("a").attr("value");
+				if(parentId=='40288883088f0a1801089055b4020001'){
+					$("#newsText").html("<iframe src='label/zxjj.html'  name='newList' width='700px;' scrolling='no' frameborder='0'  id='zxjj' ></iframe>")
+				}else if(parentId=='40288883088f0a180108905604740002'){
+					$("#newsText").html("<iframe src='label/zxld.html'  name='newList' width='700px;' scrolling='no' frameborder='0'  id='zxld'></iframe>")
+				}else if(parentId=='40288883088f0a180108905664760003'){
+					$("#newsText").html("<iframe src='LabelAction!getJgzlsz.do' name='jgzlseList' id='Iframe' width='800px;' scrolling='no' frameborder='0'   ></iframe>")
+				}else if(parentId=='2c90818a4d9d3a29014d9d4dd0ff0001'){
+					$("#newsText").html("<iframe src='label/lxwm.jsp'  name='lxwm' width='700px;' scrolling='no' frameborder='0'  id='lxwm'></iframe>")
+				}else if(parentId=='2c90818a4d9d3a29014d9d4fc2fe0003'){
+					$("#newsText").html("<iframe src='label/wzyst.jsp'  name='lxwm' width='700px;' scrolling='no' frameborder='0'  id='wzt'></iframe>")
+				}else{
+					if ($uls.length > 0 && $uls != null) {
+						$uls.slideToggle().siblings("ul").hide();
+					} else {
+						$("#tab div").next("ul").hide();
+						$("#province option[value='0']").attr("selected","selected");
+						$("#newsText").html("<iframe src='LabelAction!getNewsByType.do?parentId="+parentId+"'   id='newsList'  name='newList' width='715px;' scrolling='no' frameborder='0' ></iframe>")
+					}
+				}
+		});
+	//绑定子级点击事件
+		$("#tab ul li").click(function() {
+			var $as = $(this);
+			$as.find("a").css("color","#ff4800").parent().siblings().find("a").css("color","#6092DB");
+			var subsetId=$as.find("a").attr("value");
+			$("#newsText").html("<iframe src='LabelAction!getNewsByType.do?parentId="+subsetId+"'  id='newsList' name='newList' width='715px;' scrolling='no' frameborder='0' ></iframe>")
+			var text=$as.find("a").text();
+			$("#thisText").text(">"+text);
+		});
+//给省绑定事件
+	$("#province").change(function(){
+		  var provinceId=$("#province").find("option:selected").val(); 
+		  $("#newsText").html("<iframe src='LabelAction!getNewsByType.do?parentId=2c90818a4deae652014debca35cb0002&provinceId="+provinceId+"'  id='newsList' name='newList' width='715px;' scrolling='no' frameborder='0' ></iframe>")
+	})
+})
+	function IFrameReSize(iframename) {
+		var pTar = document.getElementById(iframename);
+			if (pTar) { //ff
+			if (pTar.contentDocument && pTar.contentDocument.body.offsetHeight) {
+			pTar.height = pTar.contentDocument.body.offsetHeight;
+			} //ie
+			else if (pTar.Document && pTar.Document.body.scrollHeight) {
+			pTar.height = pTar.Document.body.scrollHeight;
+			}
+		}
+	}
+</script>
+	</head>
+	<body>
+		<!-- 头部-->
+			<iframe src="head.jsp" width="100%" height="240px;" scrolling='no' frameborder='0' ></iframe>
+		<div class="nav">
+		<div class="jgjj_Maxdiv">
+			<div class="newsTab">
+				<span><a href="index.html">首页&nbsp;&nbsp;></a><a href="#">&nbsp;&nbsp;监督执法&nbsp;&nbsp;</a><a href="javascript:void(0)" id="thisText">&nbsp;&nbsp;</a></span>
+			</div>
+			<div class="news_dh" id="news_dh">
+				<div class="left_div">
+					<div class="jgjjtx_div">
+						<span>监督执法</span>
+					</div>
+					<div id="tab">
+						
+						
+						<div class="tab_select">
+							<span class="select_text" ><a style="text-decoration: none;color:#FFF" href="javascript:void(0)" value="2c90818a4d9eb481014d9ebc876d0002">公共卫生监督</a></span>
+						</div>
+						
+						
+						
+						<div>
+							<span><a style="text-decoration: none;color:#6092DB" href="javascript:void(0)" value="2c90818a4d9eb481014d9ebca47b0003">医疗卫生监督</a></span>
+						</div>
+						
+						
+						
+						<div>
+							<span><a style="text-decoration: none;color:#6092DB" href="javascript:void(0)" value="2c909eaa4e2edf96014e3e61a4d001d1">计划生育监督</a></span>
+						</div>
+						
+						
+					</div>
+				</div>
+				<div style="float:right;width: 685px;height: 35px;display: none;" id="dq">
+					<span style="color: #1e60ab">选择地区:</span>
+					<select style="width: 150px;" id="province">
+           	<option value="0"></option>
+           	<option value="11">北京</option><option value="12">天津</option><option value="13">河北</option>
+           	<option value="14">山西</option><option value="15">内蒙古</option><option value="21">辽宁</option>
+						<option value="22">吉林</option><option value="23">黑龙江</option><option value="31">上海</option>
+						<option value="32">江苏</option><option value="33">浙江</option><option value="34">安徽</option>
+           	<option value="35">福建</option><option value="36">江西</option><option value="37">山东 </option>
+           	<option value="41">河南</option><option value="42">湖北</option><option value="43">湖南</option> 
+           	<option value="44">广东</option><option value="45">广西</option><option value="46">海南</option> 
+           	<option value="50">四川</option><option value="51">重庆</option><option value="52">贵州</option> 
+           	<option value="53">云南</option><option value="54">西藏</option><option value="61">陕西</option> 
+           	<option value="62">甘肃</option><option value="63">青海</option><option value="64">宁夏</option> 
+           	<option value="65">新疆</option><option value="66">大连</option><option value="67">青岛</option> 
+           	<option value="68">宁波</option><option value="69">厦门</option><option value="70">深圳</option> 
+					</select>
+				</div>
+				<div class="right_div" id="newsText" > 
+				</div>
+			</div>
+			</div>
+			
+			
+		<div class="top_end" style="float: left;" >
+			<div class="end">
+				<div class="bj"></div>
+			</div>
+			<div class="max_top">
+				<div class="top_div" >
+					<div class="dizhi_div">
+						<span>国家卫生计生委卫生和计划生育监督中心</span><span>地址:北京市东城区交道口北三条32号</span><span>邮编:100007</span>
+					</div>
+					<div style="height: 25px; line-height: 25px;text-align: center;">
+						<span>备案号:京ICP 备10213288号-2</span>
+						<span>京公网安备:110402450007</span>
+					 <span> 访问量：<script language="javascript" src="include/syHits.jsp"></script></span>
+						<span>Copyright &copy;2009 All Rights Reserved</span>
+						<span>版权所有 违者必究</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

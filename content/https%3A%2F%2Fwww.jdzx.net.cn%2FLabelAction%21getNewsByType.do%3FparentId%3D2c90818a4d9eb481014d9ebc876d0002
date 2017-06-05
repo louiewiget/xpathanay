@@ -1,0 +1,165 @@
+
+
+
+
+
+
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+				<link href="style/indexNew.css" rel="stylesheet" type="text/css" />
+		<script src="script/jquery.js"></script>
+	</head>
+	
+	<body>
+			
+				<!-- 新闻 -->
+					<div class="newsText">
+						
+						<ul>
+						
+			 				<li>
+			 				<i><img src="images/dian.gif" /></i>
+			 				<a href="article/2c90818a4d9eb481014d9ebc876d0002/2017/5/2c909eaa5b664ab0015bf00e8cf005f4.html" target="_blank" title="大连市召开餐消行业培训会 探索卫生监督新举措">大连市召开餐消行业培训会 探索卫生监督新举措</a><span>2017-05-10</span>
+			 				</li>
+						
+			 				<li>
+			 				<i><img src="images/dian.gif" /></i>
+			 				<a href="article/2c90818a4d9eb481014d9ebc876d0002/2017/3/2c909eaa5b0db9ed015b129252e6002e.html" target="_blank" title="国家卫生计生委卫生和计划生育监督中心关于开展医疗废物处置执法监督专项检查的通知">国家卫生计生委卫生和计划生育监督中心关于开展医疗废物处置执法...</a><span>2017-03-28</span>
+			 				</li>
+						
+			 				<li>
+			 				<i><img src="images/dian.gif" /></i>
+			 				<a href="article/2c90818a4d9eb481014d9ebc876d0002/2017/3/2c909eaa5aac9f66015afeae2b9528be.html" target="_blank" title="国家卫生计生委办公厅关于加强医疗机构传染病管理工作的通知">国家卫生计生委办公厅关于加强医疗机构传染病管理工作的通知</a><span>2017-03-24</span>
+			 				</li>
+						
+			 				<li>
+			 				<i><img src="images/dian.gif" /></i>
+			 				<a href="article/2c90818a4d9eb481014d9ebc876d0002/2017/2/2c909eaa5a163bb4015a7d3af2bf040e.html" target="_blank" title="国家卫生计生委办公厅关于印发2017年国家监督抽检计划的通知">国家卫生计生委办公厅关于印发2017年国家监督抽检计划的通知</a><span>2017-02-27</span>
+			 				</li>
+						
+			 				<li>
+			 				<i><img src="images/dian.gif" /></i>
+			 				<a href="article/2c90818a4d9eb481014d9ebc876d0002/2017/2/2c909eaa5a163bb4015a4063c96e01aa.html" target="_blank" title="2016年北京市传染病消毒卫生监督工作情况汇总">2016年北京市传染病消毒卫生监督工作情况汇总</a><span>2017-02-15</span>
+			 				</li>
+						
+			 				<li>
+			 				<i><img src="images/dian.gif" /></i>
+			 				<a href="article/2c90818a4d9eb481014d9ebc876d0002/2017/1/2c909eaa597cd6130159cdfabbef0424.html" target="_blank" title="国家卫生计生委办公厅关于开展传染病防治法等法律法规落实情况监督检查工作的通知">国家卫生计生委办公厅关于开展传染病防治法等法律法规落实情况监...</a><span>2017-01-24</span>
+			 				</li>
+						
+			 				<li>
+			 				<i><img src="images/dian.gif" /></i>
+			 				<a href="article/2c90818a4d9eb481014d9ebc876d0002/2017/1/2c909eaa597cd6130159cdf094560423.html" target="_blank" title="国家卫生计生委办公厅关于2016年消毒产品国家监督抽检工作情况的通报">国家卫生计生委办公厅关于2016年消毒产品国家监督抽检工作情...</a><span>2017-01-24</span>
+			 				</li>
+						
+			 				<li>
+			 				<i><img src="images/dian.gif" /></i>
+			 				<a href="article/2c90818a4d9eb481014d9ebc876d0002/2017/1/2c909eaa597cd6130159cdecb8c80422.html" target="_blank" title="国家卫生计生委办公厅关于2016年传染病防治国家监督抽检工作情况的通报">国家卫生计生委办公厅关于2016年传染病防治国家监督抽检工作...</a><span>2017-01-24</span>
+			 				</li>
+						
+			 				<li>
+			 				<i><img src="images/dian.gif" /></i>
+			 				<a href="article/2c90818a4d9eb481014d9ebc876d0002/2016/12/2c909eaa58fac519015905197f98008a.html" target="_blank" title="监督中心在京召开2016年消毒产品国家监督抽检总结会">监督中心在京召开2016年消毒产品国家监督抽检总结会</a><span>2016-12-16</span>
+			 				</li>
+						
+			 				<li>
+			 				<i><img src="images/dian.gif" /></i>
+			 				<a href="article/2c90818a4d9eb481014d9ebc876d0002/2016/9/2c909eaa5726a0bd01573b662a6b007f.html" target="_blank" title="青岛市卫生计生委等五部门举办《青岛市生活饮用水卫生监督管理办法》新闻宣传及现场咨询会">青岛市卫生计生委等五部门举办《青岛市生活饮用水卫生监督管理办...</a><span>2016-09-18</span>
+			 				</li>
+						
+						</ul>
+						<table align="center" id="pageTable" >
+				<tr>
+                <td height="50" colspan="3" valign="middle" align="center" style="font-size:14px;color:#000000;">
+                
+                  首 页&nbsp;&nbsp;&nbsp;
+              
+                
+                  上一页&nbsp;&nbsp;&nbsp;
+                
+                
+                  <a href="javascript:nextPage()" class="bluelink">
+                    下一页
+                  </a>&nbsp;&nbsp;&nbsp;
+                
+                
+                  <a href="javascript:last()" class="bluelink">
+                    末 页
+                  </a>&nbsp;&nbsp;&nbsp;
+                
+                 当前页1/5&nbsp;&nbsp;&nbsp;
+                  总条目数 43
+                  转到第<input type="text" name="pageNum" id="pageNum"  size="4" value='1'/>
+                  页&nbsp;<a href="javascript:gotoPage();"><img src="images/go.gif" border="0"/></a>&nbsp;&nbsp;
+                 </td>
+              </tr>
+				</table>
+						
+					</div>
+					
+
+<script>
+ 
+ var thisPage = '1';
+  var pageCount = '5';
+  function gotoPage() {
+    var pageNum = $("#pageNum").val();
+    if (pageNum == '') {
+      alert('请输入页号！');
+      return;
+    }
+    else if (parseInt(pageNum)>parseInt(pageCount)) {
+      return;
+    }
+    else {
+      var pag = parseInt(pageNum);
+      if (isNaN(pag)) {
+        alert('页号必须是一个整数！');
+        return;
+      }
+      else {
+        if (pag.toString().length != pageNum.length) {
+          alert('页号必须是一个整数！');
+          return;
+        }
+      }
+    }
+    location.href = 'LabelAction!getNewsByTypeGoTo.do?pageNum=' + pageNum;
+  }
+  function first() {
+    location.href = "LabelAction!getNewsByTypeGoTo.do?pageNum=1";
+  }
+
+  function previousPage() {
+    location.href = "LabelAction!getNewsByTypeGoTo.do?pageNum=" + (parseInt(thisPage) - 1);
+  }
+
+  function nextPage() {
+    location.href = "LabelAction!getNewsByTypeGoTo.do?pageNum=" + (parseInt(thisPage) + 1);
+  }
+
+  function last() {
+    location.href = "LabelAction!getNewsByTypeGoTo.do?pageNum=" + pageCount;
+  }
+  
+	function calcPageHeight(doc) {
+     var cHeight = Math.max(doc.body.clientHeight, doc.documentElement.clientHeight)
+     var sHeight = Math.max(doc.body.scrollHeight, doc.documentElement.scrollHeight)
+     var height  = Math.max(cHeight, sHeight)
+     return height
+	}
+$(function(){
+ var height = calcPageHeight(document);
+ if(height<=150){
+ 	parent.document.getElementById('newsList').style.height = (height-20)+ 'px' 
+ }else{
+ 	parent.document.getElementById('newsList').style.height = height + 'px' 
+ }
+})
+  	 
+	
+</script>
+	</body>
+</html>
