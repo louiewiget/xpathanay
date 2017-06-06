@@ -4,6 +4,7 @@ class SchemeEntity(object):
 
     def __init__(self):
         self.site_name = ""
+        self.site_url = ""
         self.category_name = ""
         self.category_url = ""
         self.xpath_prefix = ""
@@ -14,6 +15,9 @@ class SchemeEntity(object):
 
     def getSiteName(self):
         return self.site_name
+
+    def getSiteUrl(self):
+        return self.site_url
 
     def getCategoryName(self):
         return self.category_name

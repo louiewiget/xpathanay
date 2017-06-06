@@ -75,7 +75,7 @@ class XpathAnaylize(threading.Thread):
         dateXpath  = element.getDateXpath().split(";")
         categoryUrl = element.getCategoryUrl()
         pageNoParam = categoryUrl[0:categoryUrl.find("?")]
-        varDict = {"$host":categoryUrl, "$page":categoryUrl, "$pageNoParam": pageNoParam}
+        varDict = {"$host":categoryUrl, "$page":categoryUrl, "$pageNoParam": pageNoParam, "$siteUrl": element.getSiteUrl()}
         if self.debug:
             logging.info("DEBUG: prefix[%s] url[%s]" % (element.getXpathPrefix(), element.getCategoryUrl()))
             utils.write_log(urllib.quote_plus(element.getCategoryUrl()), page);
