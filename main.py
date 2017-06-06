@@ -1,5 +1,7 @@
 #encoding: utf-8
 
+"""add by guminli"""
+
 import log
 
 from BaseAppender import BaseAppender
