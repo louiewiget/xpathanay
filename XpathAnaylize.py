@@ -111,17 +111,25 @@ class XpathAnaylize(threading.Thread):
             dateRaw = dateRet[0].strip()
 
             if len(urlXpath) > 1:
-                p1 = urlXpath[1]
-                pattern = re.compile(p1)
-                result = pattern.findall(url)
-                if len(result) >= 1:
-                    url = result[0]
+                result = self.extractValue(url, urlXpath[1])
+                url = result if result is not None else url
                 varDict["$result"] = url
                 if len(urlXpath) > 2:
                     matchString = urlXpath[2]
                     for k, v in varDict.iteritems():
                         matchString = matchString.replace(k, v)
                     url = matchString
+            if len(dateXpath) >= 3:
+                result = self.extractValue(dateRaw, dateXpath[2])
+                if result is not None:
+                    dateRaw = result
             date = time.strptime(dateRaw, dateXpath[1])
             dateStr = "%s-%s-%s" % (date.tm_year, date.tm_mon, date.tm_mday)
             self.appender.perform(title, url, dateStr, element)
+    def extractValue(self, raw, patternStr):
+        pattern = re.compile(patternStr)
+        result = pattern.findall(raw)
+        if len(result) >= 1:
+            return result[0]
+        else:
+            return None
