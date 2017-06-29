@@ -1,0 +1,352 @@
+WARNING: 06-29 09:05:33: PageLoader.py:17 * 47376 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:05:33: XpathAnaylize.py:82 * 47376 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:05:33: XpathAnaylize.py:63 * 47376 anaylize page fail[Type 'lxml.etree._ElementUnicodeResult' cannot be serialized.][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 101, in anaylize
+    title = self.tostr(titleRet[0]).strip()
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 154, in tostr
+    return etree.tostring(element)
+  File "src/lxml/lxml.etree.pyx", line 3350, in lxml.etree.tostring (src\lxml\lxml.etree.c:80560)
+TypeError: Type 'lxml.etree._ElementUnicodeResult' cannot be serialized.
+]
+WARNING: 06-29 09:24:29: PageLoader.py:17 * 40532 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:24:30: XpathAnaylize.py:82 * 40532 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:24:30: XpathAnaylize.py:63 * 40532 anaylize page fail[Type 'lxml.etree._ElementUnicodeResult' cannot be serialized.][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 101, in anaylize
+    title = self.tostr(titleRet[0]).strip()
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 155, in tostr
+    return etree.tostring(element)
+  File "src/lxml/lxml.etree.pyx", line 3350, in lxml.etree.tostring (src\lxml\lxml.etree.c:80560)
+TypeError: Type 'lxml.etree._ElementUnicodeResult' cannot be serialized.
+]
+WARNING: 06-29 09:24:34: PageLoader.py:17 * 41964 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:24:34: XpathAnaylize.py:82 * 41964 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:24:34: XpathAnaylize.py:63 * 41964 anaylize page fail[Type 'lxml.etree._ElementUnicodeResult' cannot be serialized.][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 101, in anaylize
+    title = self.tostr(titleRet[0]).strip()
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 155, in tostr
+    return etree.tostring(element)
+  File "src/lxml/lxml.etree.pyx", line 3350, in lxml.etree.tostring (src\lxml\lxml.etree.c:80560)
+TypeError: Type 'lxml.etree._ElementUnicodeResult' cannot be serialized.
+]
+WARNING: 06-29 09:24:53: PageLoader.py:17 * 18212 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:24:54: XpathAnaylize.py:82 * 18212 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:24:54: XpathAnaylize.py:63 * 18212 anaylize page fail[Type 'lxml.etree._ElementUnicodeResult' cannot be serialized.][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 101, in anaylize
+    title = self.tostr(titleRet[0]).strip()
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 155, in tostr
+    return etree.tostring(element)
+  File "src/lxml/lxml.etree.pyx", line 3350, in lxml.etree.tostring (src\lxml\lxml.etree.c:80560)
+TypeError: Type 'lxml.etree._ElementUnicodeResult' cannot be serialized.
+]
+WARNING: 06-29 09:29:00: PageLoader.py:17 * 48072 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:29:00: XpathAnaylize.py:82 * 48072 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:29:00: XpathAnaylize.py:63 * 48072 anaylize page fail[list index out of range][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 123, in anaylize
+    dateRaw = self.tostr(dateRet[0]).strip()
+IndexError: list index out of range
+]
+WARNING: 06-29 09:29:19: PageLoader.py:17 * 46196 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:29:19: XpathAnaylize.py:82 * 46196 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:29:19: XpathAnaylize.py:63 * 46196 anaylize page fail[list index out of range][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 123, in anaylize
+    dateRaw = self.tostr(dateRet[0]).strip()
+IndexError: list index out of range
+]
+WARNING: 06-29 09:29:30: PageLoader.py:17 * 46224 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:29:30: XpathAnaylize.py:82 * 46224 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:29:30: XpathAnaylize.py:63 * 46224 anaylize page fail[list index out of range][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 123, in anaylize
+    dateRaw = self.tostr(dateRet[0]).strip()
+IndexError: list index out of range
+]
+WARNING: 06-29 09:30:14: PageLoader.py:17 * 45600 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:30:15: XpathAnaylize.py:82 * 45600 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:30:15: XpathAnaylize.py:63 * 45600 anaylize page fail[list index out of range][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 123, in anaylize
+    dateRaw = self.tostr(dateRet[0]).strip()
+IndexError: list index out of range
+]
+WARNING: 06-29 09:30:34: PageLoader.py:17 * 41948 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:30:34: XpathAnaylize.py:82 * 41948 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:30:34: XpathAnaylize.py:63 * 41948 anaylize page fail[list index out of range][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 123, in anaylize
+    dateRaw = self.tostr(dateRet[0]).strip()
+IndexError: list index out of range
+]
+WARNING: 06-29 09:30:45: PageLoader.py:17 * 30024 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:30:45: XpathAnaylize.py:82 * 30024 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:30:45: XpathAnaylize.py:63 * 30024 anaylize page fail[list index out of range][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 123, in anaylize
+    dateRaw = self.tostr(dateRet[0]).strip()
+IndexError: list index out of range
+]
+WARNING: 06-29 09:31:00: PageLoader.py:17 * 44728 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:31:01: XpathAnaylize.py:82 * 44728 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:31:01: XpathAnaylize.py:63 * 44728 anaylize page fail[list index out of range][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 123, in anaylize
+    dateRaw = self.tostr(dateRet[0]).strip()
+IndexError: list index out of range
+]
+WARNING: 06-29 09:31:10: PageLoader.py:17 * 36912 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:31:11: XpathAnaylize.py:82 * 36912 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:31:11: XpathAnaylize.py:63 * 36912 anaylize page fail[list index out of range][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 123, in anaylize
+    dateRaw = self.tostr(dateRet[0]).strip()
+IndexError: list index out of range
+]
+WARNING: 06-29 09:31:28: PageLoader.py:17 * 41428 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:31:29: XpathAnaylize.py:82 * 41428 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:31:29: XpathAnaylize.py:63 * 41428 anaylize page fail[list index out of range][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 123, in anaylize
+    dateRaw = self.tostr(dateRet[0]).strip()
+IndexError: list index out of range
+]
+WARNING: 06-29 09:33:41: PageLoader.py:17 * 47044 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:33:41: XpathAnaylize.py:82 * 47044 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:33:41: XpathAnaylize.py:63 * 47044 anaylize page fail[list index out of range][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 123, in anaylize
+    dateRaw = self.tostr(dateRet[0]).strip()
+IndexError: list index out of range
+]
+WARNING: 06-29 09:35:13: PageLoader.py:17 * 45620 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:35:14: XpathAnaylize.py:82 * 45620 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:35:14: XpathAnaylize.py:123 * 45620 date xpath has no result[./table/tbody/tr/td[1]/text()]
+WARNING: 06-29 09:35:14: XpathAnaylize.py:123 * 45620 date xpath has no result[./table/tbody/tr/td[1]/text()]
+WARNING: 06-29 09:35:14: XpathAnaylize.py:123 * 45620 date xpath has no result[./table/tbody/tr/td[1]/text()]
+WARNING: 06-29 09:35:14: XpathAnaylize.py:123 * 45620 date xpath has no result[./table/tbody/tr/td[1]/text()]
+WARNING: 06-29 09:35:14: XpathAnaylize.py:63 * 45620 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 119, in anaylize
+    print title, url
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 4: illegal multibyte sequence
+]
+WARNING: 06-29 09:36:44: PageLoader.py:17 * 46224 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:36:44: XpathAnaylize.py:82 * 46224 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:36:44: XpathAnaylize.py:122 * 46224 date xpath has no result[./table/tbody/tr/td[1]/text()]
+WARNING: 06-29 09:36:44: XpathAnaylize.py:122 * 46224 date xpath has no result[./table/tbody/tr/td[1]/text()]
+WARNING: 06-29 09:36:44: XpathAnaylize.py:122 * 46224 date xpath has no result[./table/tbody/tr/td[1]/text()]
+WARNING: 06-29 09:36:44: XpathAnaylize.py:122 * 46224 date xpath has no result[./table/tbody/tr/td[1]/text()]
+WARNING: 06-29 09:36:44: XpathAnaylize.py:122 * 46224 date xpath has no result[./table/tbody/tr/td[1]/text()]
+WARNING: 06-29 09:36:44: XpathAnaylize.py:122 * 46224 date xpath has no result[./table/tbody/tr/td[1]/text()]
+WARNING: 06-29 09:36:44: XpathAnaylize.py:122 * 46224 date xpath has no result[./table/tbody/tr/td[1]/text()]
+WARNING: 06-29 09:36:44: XpathAnaylize.py:122 * 46224 date xpath has no result[./table/tbody/tr/td[1]/text()]
+WARNING: 06-29 09:39:01: PageLoader.py:17 * 47428 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:39:01: XpathAnaylize.py:82 * 47428 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:39:01: XpathAnaylize.py:63 * 47428 anaylize page fail[time data u'\u53d1\u5e03\u65f6\u95f4\uff1a\r\n                    2017-06-06' does not match format u'\u53d1\u5e03\u65f6\u95f4\uff1a%Y-%m-%d'][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 138, in anaylize
+    date = time.strptime(dateRaw, dateXpath[1])
+  File "D:\Python27\lib\_strptime.py", line 478, in _strptime_time
+    return _strptime(data_string, format)[0]
+  File "D:\Python27\lib\_strptime.py", line 332, in _strptime
+    (data_string, format))
+ValueError: time data u'\u53d1\u5e03\u65f6\u95f4\uff1a\r\n                    2017-06-06' does not match format u'\u53d1\u5e03\u65f6\u95f4\uff1a%Y-%m-%d'
+]
+WARNING: 06-29 09:40:59: PageLoader.py:17 * 46828 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:40:59: XpathAnaylize.py:82 * 46828 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:40:59: XpathAnaylize.py:63 * 46828 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print ("[%s-%s] %s %s %s" % (element.getSiteName(), element.getCategoryName(), title, url, date))
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 20: illegal multibyte sequence
+]
+WARNING: 06-29 09:43:10: PageLoader.py:17 * 47132 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+INFO: 06-29 09:43:10: XpathAnaylize.py:82 * 47132 DEBUG: prefix[//div[@class='list_div mar-top2 ']] url[http://www.dgwsj.gov.cn/dgwjj/xwzx/list.shtml]
+WARNING: 06-29 09:43:10: XpathAnaylize.py:63 * 47132 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print ("[%s-%s] %s %s %s" % (element.getSiteName(), element.getCategoryName(), title, url, date))
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 20: illegal multibyte sequence
+]
+WARNING: 06-29 09:43:28: PageLoader.py:17 * 39656 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:43:28: XpathAnaylize.py:63 * 39656 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print ("[%s-%s] %s %s %s" % (element.getSiteName(), element.getCategoryName(), title, url, date))
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 20: illegal multibyte sequence
+]
+WARNING: 06-29 09:43:46: PageLoader.py:17 * 46912 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:43:46: XpathAnaylize.py:63 * 46912 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print ("[%s-%s] %s %s %s" % (element.getSiteName(), element.getCategoryName(), title, url, date))
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 20: illegal multibyte sequence
+]
+WARNING: 06-29 09:44:19: PageLoader.py:17 * 27576 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:44:19: XpathAnaylize.py:63 * 27576 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print ("[%s-%s] %s %s %s" % (element.getSiteName(), element.getCategoryName(), title, url, date))
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 20: illegal multibyte sequence
+]
+WARNING: 06-29 09:45:34: PageLoader.py:17 * 37040 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:45:42: PageLoader.py:17 * 42264 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:45:46: PageLoader.py:17 * 44380 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:46:03: PageLoader.py:17 * 45120 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:46:17: PageLoader.py:17 * 45588 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:46:37: PageLoader.py:17 * 47368 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:47:40: PageLoader.py:17 * 42740 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:47:40: XpathAnaylize.py:63 * 42740 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print title
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 4: illegal multibyte sequence
+]
+WARNING: 06-29 09:48:05: PageLoader.py:17 * 28444 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:48:06: XpathAnaylize.py:63 * 28444 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print title
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 4: illegal multibyte sequence
+]
+WARNING: 06-29 09:48:58: PageLoader.py:17 * 44812 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:48:58: XpathAnaylize.py:63 * 44812 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print title
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 4: illegal multibyte sequence
+]
+WARNING: 06-29 09:49:10: PageLoader.py:17 * 42764 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:49:11: XpathAnaylize.py:63 * 42764 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 101, in anaylize
+    title = self.tostr(titleRet[0]).strip()
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 154, in tostr
+    print element.title()
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 4: illegal multibyte sequence
+]
+WARNING: 06-29 09:49:27: PageLoader.py:17 * 45236 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:49:28: XpathAnaylize.py:63 * 45236 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print title
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 4: illegal multibyte sequence
+]
+WARNING: 06-29 09:49:57: PageLoader.py:17 * 46632 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:49:57: XpathAnaylize.py:63 * 46632 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print title
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 4: illegal multibyte sequence
+]
+WARNING: 06-29 09:50:09: PageLoader.py:17 * 47024 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:50:09: XpathAnaylize.py:63 * 47024 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print title
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 4: illegal multibyte sequence
+]
+WARNING: 06-29 09:50:23: PageLoader.py:17 * 43956 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:50:23: XpathAnaylize.py:63 * 43956 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print ("[%s-%s] %s %s %s" % (element.getSiteName(), element.getCategoryName(), title, url, date))
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 20: illegal multibyte sequence
+]
+WARNING: 06-29 09:51:40: PageLoader.py:17 * 38908 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:51:40: XpathAnaylize.py:63 * 38908 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print ("[%s-%s] %s %s %s" % (element.getSiteName(), element.getCategoryName(), title, url, date))
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 20: illegal multibyte sequence
+]
+WARNING: 06-29 09:52:45: PageLoader.py:17 * 47800 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:52:45: XpathAnaylize.py:63 * 47800 anaylize page fail[decode() argument 2 must be string, not None][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 101, in anaylize
+    title = self.tostr(titleRet[0]).strip()
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 154, in tostr
+    return element.title().decode('utf-8', errors=None)
+TypeError: decode() argument 2 must be string, not None
+]
+WARNING: 06-29 09:52:48: PageLoader.py:17 * 46536 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:52:48: XpathAnaylize.py:63 * 46536 anaylize page fail[decode() argument 2 must be string, not None][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 101, in anaylize
+    title = self.tostr(titleRet[0]).strip()
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 154, in tostr
+    return element.title().decode('utf-8', errors=None)
+TypeError: decode() argument 2 must be string, not None
+]
+WARNING: 06-29 09:53:15: PageLoader.py:17 * 46648 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:53:15: XpathAnaylize.py:63 * 46648 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print ("[%s-%s] %s %s %s" % (element.getSiteName(), element.getCategoryName(), title, url, date))
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 20: illegal multibyte sequence
+]

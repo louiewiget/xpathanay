@@ -1,0 +1,332 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1"><title>
+	东莞市卫生监督所
+</title><link rel="Stylesheet" type="text/css" href="css/style.css" /></head>
+<body>
+    <form name="form1" method="post" action="ImageNewsList.aspx?Sort=xw&amp;SubSort=tpxw" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script language="Javascript"><!--
+function ANP_goToPage(boxEl){if(boxEl!=null){var pi;if(boxEl.tagName=="SELECT"){pi=boxEl.options[boxEl.selectedIndex].value;}else{pi=boxEl.value;}location.href="ImageNewsList.aspx?Sort=xw&SubSort=tpxw&page="+pi+"";}}
+function ANP_checkInput(bid,mv){var el=document.getElementById(bid);var r=new RegExp("^\\s*(\\d+)\\s*$");
+if(r.test(el.value)){if(RegExp.$1<1||RegExp.$1>mv){alert("页索引超出范围！");el.focus();el.select();return false;}
+return true;}alert("页索引不是有效的数值！");el.focus();el.select();return false;}
+function ANP_keydown(e,btnId){
+var kcode;
+if(window.event){kcode=e.keyCode;}
+else if(e.which){kcode=e.which;}
+var validKey=(kcode==8||kcode==46||kcode==37||kcode==39||(kcode>=48&&kcode<=57)||(kcode>=96&&kcode<=105));
+if(!validKey){
+if(kcode==13) document.getElementById(btnId).click();
+if(e.preventDefault) e.preventDefault();else{event.returnValue=false};
+}
+}
+--></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+    <div id="body">
+        <div id="head" class="clear">
+            <div id="logo">
+            
+      <param name="wmode" value="opaque" />
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="1002" height="180">
+      <param name="movie" value="../WebSiteHearder/Images/top.swf" />
+      <param name="wmode" value="opaque" />
+      <param name="quality" value="high" />
+      <embed src="../WebSiteHearder/Images/top.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="1002" height="180"></embed>
+      </object>
+
+            </div>
+            <div id="menu">
+            
+
+
+<script type="text/javascript" language="javascript"> 
+function show(aa,bb)
+{
+	document.all.div1.style.display="none";
+	document.all.div2.style.display="none";
+	document.all.div3.style.display="none";
+	document.all.div4.style.display="none";
+	document.all.div5.style.display="none";
+	document.all.div6.style.display="none";
+	document.all.div7.style.display="none";
+	document.all.div8.style.display = "none";
+	document.all.div9.style.display = "none";
+	document.all.nav1.style.display="none";
+	document.all.nav2.style.display="none";
+	document.all.nav3.style.display="none";
+	document.all.nav4.style.display="none";
+	document.all.nav5.style.display="none";
+	document.all.nav6.style.display="none";
+	document.all.nav7.style.display="none";
+	document.all.nav8.style.display = "none";
+	document.all.nav9.style.display = "none";
+	aa.style.display="block";
+	bb.style.display="block";
+	}
+</script>
+<table width="1004" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="1004" background="/WebSiteHearder/Menu/bg1.jpg">
+	    <table  border="0" align="center" cellpadding="0" cellspacing="0">
+	      <tr>
+		        <td background="/WebSiteHearder/Menu/dgwsjd_menu_home.jpg" width="90" height="32" onMouseOver="show(div1,nav1);"><span style="display:block; " id="nav1"><a class='' href='/Default.aspx'><img src='/WebSiteHearder/Menu/dgwsjd_menu_home1.jpg' border='0' width='90' height='32'></a></span></td>
+		        <td background="/WebSiteHearder/Menu/dgwsjd_menu_tpxw.jpg" width="90" height="32" onMouseOver="show(div8,nav8);"><span style="display:none; " id="nav8"><a class='' href='/ImageNewsList.aspx?Sort=xw&SubSort=tpxw'><img alt="" src='/WebSiteHearder/Menu/dgwsjd_menu_tpxw1.jpg' border='0' width='90' height='32'></a></span></td>
+		        <td background="/WebSiteHearder/Menu/dgwsjd_menu_jgsz.jpg" width="90" height="32" onMouseOver="show(div2,nav2);"><span style="display:none; " id="nav2"><img alt="" src='/WebSiteHearder/Menu/dgwsjd_menu_jgsz1.jpg' border='0' width='90' height='32'></span></td>
+		        <td background="/WebSiteHearder/Menu/dgwsjd_menu_xxgk.jpg" width="90" height="32" onMouseOver="show(div3,nav3);"><span style="display:none; " id="nav3"><img alt="" src='/WebSiteHearder/Menu/dgwsjd_menu_xxgk1.jpg' border='0' width='90' height='32'></span></td>
+		        <td background="/WebSiteHearder/Menu/dgwsjd_menu_bsdt.jpg" width="90" height="32" onMouseOver="show(div4,nav4);"><span style="display:none;" id="nav4"><img alt="" src='/WebSiteHearder/Menu/dgwsjd_menu_bsdt1.jpg' border='0' width='89' height='32'></span></td>
+		        <td background="/WebSiteHearder/Menu/dgwsjd_menu_zcfg.jpg" width="90" height="32" onMouseOver="show(div5,nav5);"><span style="display:none; " id="nav5"><img alt="" src='/WebSiteHearder/Menu/dgwsjd_menu_zcfg1.jpg' border='0' width='90' height='32'></span></td>
+		        <td background="/WebSiteHearder/Menu/dgwsjd_menu_wmhw.jpg" width="90" height="32" onMouseOver="show(div6,nav6);"><span style="display:none; " id="nav6"><img alt="" src='/WebSiteHearder/Menu/dgwsjd_menu_wmhw1.jpg' border='0' width='90' height='32'></span></td>
+		        <td background="/WebSiteHearder/Menu/dgwsjd_menu_xzzx.jpg" width="90" height="32" onMouseOver="show(div7,nav7);"><span style="display:none; " id="nav7"><a class='' href='/DownloadList.aspx?Sort=xzzx&SubSort=xzzx&category=all'><img alt="" src='/WebSiteHearder/Menu/dgwsjd_menu_xzzx1.jpg' border='0' width='90' height='32'></a></span></td>
+		        <td background="/WebSiteHearder/Menu/dgwsjd_menu_szxx.jpg" width="90" height="32" onMouseOver="show(div9,nav9);"><span style="display:none; " id="nav9"><a class='' href='/EmailShow.aspx'><img alt="" src='/WebSiteHearder/Menu/dgwsjd_menu_szxx1.jpg' border='0' width='90' height='32'></a></span></td>
+		  </tr>
+	    </table>
+    </td>
+  </tr>
+  <tr>
+        <td height="28" bgcolor="#134081">
+        <div id="div1" class="nav2010" style="display:none; "></div>
+        <div id="div2" class="nav2010" style="display:none; margin-left:220px;">
+            <a href='/NewsShow.aspx?Sort=jggk&SubSort=jgjj&id=EDFDC1AD-D1A1-4C3D-9CC2-BB68973DCD76' class='nav2010'>机构简介</a>  |
+            <a href='/NewsShow.aspx?Sort=jggk&SubSort=jgjj&id=EAD79F43-E31B-4ACB-93E3-C6999553364F' class='nav2010'>主要领导介绍</a>  |
+            <a href='/NewsShow.aspx?Sort=jggk&SubSort=nsjg&id=927917AE-15BC-4897-98B8-A4D3F9C93DF9' class='nav2010'>内设机构</a>
+　
+        </div>
+        <div id="div3" class="nav2010" style="display:none; margin-left:150px;">
+            <a href='/NewsList.aspx?Sort=xxgk&SubSort=yjgk' class='nav2010'>预结算公开</a>  |
+            <a href='/DiaoChaZhengJi.aspx?Sort=xxgk&SubSort=dczj' class='nav2010'>调查征集</a>  |
+            <a href='/NewsList.aspx?Sort=xxgk&SubSort=fsws' class='nav2010'>放射卫生</a>  |
+            <a href='/NewsList.aspx?Sort=xxgk&SubSort=ysws' class='nav2010'>饮水卫生</a>  |
+            <a href='/NewsList.aspx?Sort=xxgk&SubSort=ggcs' class='nav2010'>公共场所</a>  |
+            <a href='/NewsList.aspx?Sort=xxgk&SubSort=crbl' class='nav2010'>传 染 病</a>  |
+            <a href='/NewsList.aspx?Sort=xxgk&SubSort=yljg' class='nav2010'>医疗机构</a> 
+        </div>
+        <div id="div4" class="nav2010" style="display:none; margin-left:300px;">
+            <a href='/DownloadList.aspx?Sort=bzdt&SubSort=bszn&category=all' class='nav2010'>办事指南</a>  |
+            <a href='/DownloadList.aspx?Sort=bzdt&SubSort=bgxz&category=all' class='nav2010'>表格下载</a>  |
+            <a href='/BssmList.aspx' class='nav2010'>在线受理</a>  |
+            <a href='/CertificationList.aspx?Sort=ShouLiRiQi&SubSort=1' target='_blank' class='nav2010'>备案申报</a>  |
+            <a href='/SearchQues.aspx' class='nav2010'>状态查询</a>  |
+            <a href='/CertificationList.aspx?Sort=FaZhengRiQi&SubSort=3' target='_blank' class='nav2010'>结果反馈</a> 
+       </div>
+        <div id="div5" class="nav2010" style="display:none; padding-left:320px;">
+            
+            <a href='/NewsList.aspx?Sort=zcfg&SubSort=hjws' class='nav2010'>环境卫生</a>  |
+            <a href='/NewsList.aspx?Sort=zcfg&SubSort=czbl' class='nav2010'>传染病类</a>  |
+            <a href='/NewsList.aspx?Sort=zcfg&SubSort=xdcp' class='nav2010'>消毒产品</a>  |
+            <a href='/NewsList.aspx?Sort=zcfg&SubSort=yljg' class='nav2010'>医疗机构</a>  |
+            <a href='/NewsList.aspx?Sort=zcfg&SubSort=flfg' class='nav2010'>公共法律法规</a>  |
+            <a href='/NewsList.aspx?Sort=zcfg&SubSort=cyfg' class='nav2010'>常用法规</a> 
+        </div>
+        <div id="div6" class="nav2010" style="display:none; padding-left:480px;">
+            <a href='/NewsList.aspx?Sort=wmfw&SubSort=wsxc' class='nav2010'>卫生宣传</a>  |
+            <a href='/NewsList.aspx?Sort=wmfw&SubSort=zdts' class='nav2010'>焦点透视</a>
+            <!-- <a href='/NewsList.aspx?Sort=wmfw&SubSort=acjg' class='nav2010'>安全警告</a>  |
+            <a href='/InfeviofList.aspx' class='nav2010'>伪劣曝光</a>  -->
+        </div>   
+        <div id="div7" class="nav2010" style="display:none; padding-left:270px;">
+        </div>
+        <div id="div8" class="nav2010" style="display:none; padding-left:200px;">
+        </div> 
+        <div id="div9" class="nav2010" style="display:none; padding-left:150px;">
+        </div>  
+                
+        </td>
+      </tr>
+</table>
+            </div>
+        </div>
+        
+        <div id="list_content">
+            <div id="list_left">
+              <div id="top" class="clear">
+                    <div id="top_left">
+                        
+                        <div id="xxgk">
+                            <div class="top"></div>
+                            <div class="midele">
+                                <div class="title"><img alt="" src="images/icon_1.jpg" /> 信息公开</div>
+                                <div class="list">
+                                    <div class="content"><img alt="" src="images/icon_2.jpg" />&nbsp;<a href="/NewsList.aspx?Sort=xxgk&SubSort=yjgk">预决算公开</a></div>
+                                    <div class="content"><img alt="" src="images/icon_3.jpg" />&nbsp;<a href="/DiaoChaZhengJi.aspx?Sort=xxgk&SubSort=dczj">调查征集</a></div>                                    <div class="content"><img alt="" src="images/icon_4.jpg" />&nbsp;<a href="/NewsList.aspx?Sort=xxgk&SubSort=fsws">放射卫生</a></div>
+                                    <div class="content"><img alt="" src="images/icon_5.jpg" />&nbsp;<a href="/NewsList.aspx?Sort=xxgk&SubSort=ysws">饮水卫生</a></div>
+                                    <div class="content"><img alt="" src="images/icon_6.jpg" />&nbsp;<a href="/NewsList.aspx?Sort=xxgk&SubSort=ggcs">公共场所</a></div>
+                                    <div class="content"><img alt="" src="images/icon_7.jpg" />&nbsp;<a href="/NewsList.aspx?Sort=xxgk&SubSort=crbl">传 染 病</a></div>
+                                    <div class="content"><img alt="" src="images/icon_8.jpg" />&nbsp;<a href="/NewsList.aspx?Sort=xxgk&SubSort=yljg">医疗机构</a></div>
+                                </div>
+                            </div>
+                            <div class="bottom"></div>
+                        </div>
+                        
+                        <div id="imgNews">
+                                <a href="http://credit.dg.gov.cn/zygx_dgxy/sgs/xzxkIndex.do?ptjgid=4028818e41fb0cad0141fb0ea50d0072"><img alt="" src="/Images/xyxx.jpg" /></a>
+                                <a href="/NewsList.aspx?Sort=xw&SubSort=dfdt"><img alt="" src="/Images/dfdt.gif" /></a>
+                                <a href="/Qzlx/QzlxIndex.aspx"><img alt="" src="/Images/qzlxpf02.jpg" /></a> 
+                        </div>         
+                  </div> 
+              </div> 
+            </div> 
+              
+              <div id="list_right">
+                <div id="newsList">
+                    <div class="title"><span id="Label1">图片新闻</span></div>
+                    <div class="list">        
+                        <table id="NewsDataList" cellspacing="0" cellpadding="0" border="0" style="background-color:White;border-width:0px;border-style:None;width:100%;border-collapse:collapse;">
+	<tr>
+		<td>
+                            <div class="content">
+                               <div class="line"><img alt="" src="images/ja.jpg" /><a href="/ImageNewsShow.aspx?ID=cb5a9118-47a5-4d66-bb4f-97296758aa29" target="_blank" title="互联协作 共同发力 市卫生监督所开展2017年游泳场所卫生监督联合行动">互联协作 共同发力 市卫生监督所开展2017年游泳场所卫生监督联合行动</a></div>
+                                <span>2017.06.27</span>              
+                            </div>
+                            </td>
+	</tr><tr>
+		<td>
+                            <div class="content">
+                               <div class="line"><img alt="" src="images/ja.jpg" /><a href="/ImageNewsShow.aspx?ID=3b134bb0-66e8-4955-bfff-5a6573e309c0" target="_blank" title="卫生行政执法工作交流会在市卫生监督所召开">卫生行政执法工作交流会在市卫生监督所召开</a></div>
+                                <span>2017.06.15</span>              
+                            </div>
+                            </td>
+	</tr><tr>
+		<td>
+                            <div class="content">
+                               <div class="line"><img alt="" src="images/ja.jpg" /><a href="/ImageNewsShow.aspx?ID=4ac7035c-52d5-4af7-87a2-9ff3c202de7d" target="_blank" title="卫生行政执法工作交流会在市卫生监督所召开">卫生行政执法工作交流会在市卫生监督所召开</a></div>
+                                <span>2017.06.15</span>              
+                            </div>
+                            </td>
+	</tr><tr>
+		<td>
+                            <div class="content">
+                               <div class="line"><img alt="" src="images/ja.jpg" /><a href="/ImageNewsShow.aspx?ID=923f7594-c37e-4f90-bd1a-4c5cb4f9f6ab" target="_blank" title="《卫生行政执法文书书写实用指南》论证会在我市召开">《卫生行政执法文书书写实用指南》论证会在我市召开</a></div>
+                                <span>2017.06.15</span>              
+                            </div>
+                            </td>
+	</tr><tr>
+		<td>
+                            <div class="content">
+                               <div class="line"><img alt="" src="images/ja.jpg" /><a href="/ImageNewsShow.aspx?ID=aca34be5-4df5-4079-89f2-59b6d91e8d5f" target="_blank" title="开展培训 强化指导 促进我市游泳场所卫生管理工作规范化 ">开展培训 强化指导 促进我市游泳场所卫生管理工作规范化</a></div>
+                                <span>2017.06.07</span>              
+                            </div>
+                            </td>
+	</tr><tr>
+		<td>
+                            <div class="content">
+                               <div class="line"><img alt="" src="images/ja.jpg" /><a href="/ImageNewsShow.aspx?ID=9e6e3e90-a1a1-458b-bfbd-1f4e8c34c65a" target="_blank" title="市卫生监督所为2017年普通高考及普通高中学业水平考试保驾护航">市卫生监督所为2017年普通高考及普通高中学业水平考试保驾护航</a></div>
+                                <span>2017.06.05</span>              
+                            </div>
+                            </td>
+	</tr><tr>
+		<td>
+                            <div class="content">
+                               <div class="line"><img alt="" src="images/ja.jpg" /><a href="/ImageNewsShow.aspx?ID=e7f13cd2-c672-403c-9c2a-32abf30ce22d" target="_blank" title="市卫生监督所为2017年普通高考及普通高中学业水平考试保驾护航">市卫生监督所为2017年普通高考及普通高中学业水平考试保驾护航</a></div>
+                                <span>2017.06.05</span>              
+                            </div>
+                            </td>
+	</tr><tr>
+		<td>
+                            <div class="content">
+                               <div class="line"><img alt="" src="images/ja.jpg" /><a href="/ImageNewsShow.aspx?ID=1f8769c1-8457-4d9a-8ea5-148d18852eec" target="_blank" title="市卫生监督所为2017年普通高考及普通高中学业水平考试保驾护航">市卫生监督所为2017年普通高考及普通高中学业水平考试保驾护航</a></div>
+                                <span>2017.06.05</span>              
+                            </div>
+                            </td>
+	</tr><tr>
+		<td>
+                            <div class="content">
+                               <div class="line"><img alt="" src="images/ja.jpg" /><a href="/ImageNewsShow.aspx?ID=b77dafe2-cf1b-43ce-b557-e2252eb738b1" target="_blank" title="我市开展职业健康检查机构专项监督检查">我市开展职业健康检查机构专项监督检查</a></div>
+                                <span>2017.05.27</span>              
+                            </div>
+                            </td>
+	</tr><tr>
+		<td>
+                            <div class="content">
+                               <div class="line"><img alt="" src="images/ja.jpg" /><a href="/ImageNewsShow.aspx?ID=939bcf0b-2ddf-44ea-af57-ad260ead02a0" target="_blank" title="我市开展职业健康检查机构专项监督检查">我市开展职业健康检查机构专项监督检查</a></div>
+                                <span>2017.05.27</span>              
+                            </div>
+                            </td>
+	</tr><tr>
+		<td>
+                            <div class="content">
+                               <div class="line"><img alt="" src="images/ja.jpg" /><a href="/ImageNewsShow.aspx?ID=e3a5b762-aeb8-401e-ba43-2f04f1122f2a" target="_blank" title="我市开展职业健康检查机构专项监督检查">我市开展职业健康检查机构专项监督检查</a></div>
+                                <span>2017.05.27</span>              
+                            </div>
+                            </td>
+	</tr><tr>
+		<td>
+                            <div class="content">
+                               <div class="line"><img alt="" src="images/ja.jpg" /><a href="/ImageNewsShow.aspx?ID=4db6eb8b-5150-454a-a796-1da7c78f24ab" target="_blank" title="市卫生监督所开展我市公共场所卫生管理工作知识培训班">市卫生监督所开展我市公共场所卫生管理工作知识培训班</a></div>
+                                <span>2017.05.26</span>              
+                            </div>
+                            </td>
+	</tr><tr>
+		<td>
+                            <div class="content">
+                               <div class="line"><img alt="" src="images/ja.jpg" /><a href="/ImageNewsShow.aspx?ID=1da9c187-c888-44d1-8d12-88b08eec964c" target="_blank" title="市卫生监督所举办东莞市餐具、饮具集中消毒服务单位卫生监督量化分级管理培训班">市卫生监督所举办东莞市餐具、饮具集中消毒服务单位卫生监督量化分级管理培训班</a></div>
+                                <span>2017.05.17</span>              
+                            </div>
+                            </td>
+	</tr><tr>
+		<td>
+                            <div class="content">
+                               <div class="line"><img alt="" src="images/ja.jpg" /><a href="/ImageNewsShow.aspx?ID=12985371-3d18-4c1a-993f-5ee5e9d18657" target="_blank" title="市卫生监督所举办东莞市餐具、饮具集中 消毒服务单位卫生监督量化分级管理培训班">市卫生监督所举办东莞市餐具、饮具集中 消毒服务单位卫生监督量化分级管理培训班</a></div>
+                                <span>2017.05.17</span>              
+                            </div>
+                            </td>
+	</tr><tr>
+		<td>
+                            <div class="content">
+                               <div class="line"><img alt="" src="images/ja.jpg" /><a href="/ImageNewsShow.aspx?ID=dba1a2d7-8943-4f2b-b8a8-e0d03f924f9f" target="_blank" title="省卫生监督所莅临我市召开职业卫生工作会议">省卫生监督所莅临我市召开职业卫生工作会议</a></div>
+                                <span>2017.05.09</span>              
+                            </div>
+                            </td>
+	</tr>
+</table>
+                    <div style="height:30px;"></div> 
+                    <div align="center">
+                        <span>
+                            
+<!-- AspNetPager V7.0.2 for VS2005 & VS2008  Copyright:2003-2007 Webdiyer (www.webdiyer.com) -->
+<div id="AspNetPager1" style="border-color:#E0E0E0;font-size:Small;width:100%;text-align:center;">
+<div style="float:left;width:40%;">
+	第 <font color='red'><b>1</b></font> 页 共 68 页 显示 1-15 条
+</div><div align="center" style="width:60%;float:left;">
+	<a disabled="disabled" style="margin-right:5px;">首页</a><a disabled="disabled" style="margin-right:5px;">上一页</a><span style="margin-right:5px;font-weight:Bold;color:red;">[1]</span><a href="ImageNewsList.aspx?Sort=xw&amp;SubSort=tpxw&amp;page=2" style="margin-right:5px;">[2]</a><a href="ImageNewsList.aspx?Sort=xw&amp;SubSort=tpxw&amp;page=3" style="margin-right:5px;">[3]</a><a href="ImageNewsList.aspx?Sort=xw&amp;SubSort=tpxw&amp;page=4" style="margin-right:5px;">[4]</a><span style="margin-right:5px;"><a href="ImageNewsList.aspx?Sort=xw&amp;SubSort=tpxw&amp;page=5">...</a></span><a href="ImageNewsList.aspx?Sort=xw&amp;SubSort=tpxw&amp;page=2" style="margin-right:5px;">下一页</a><a href="ImageNewsList.aspx?Sort=xw&amp;SubSort=tpxw&amp;page=68" style="margin-right:5px;">尾页</a>&nbsp;&nbsp;转到第<input type="text" value="1" name="AspNetPager1_input" id="AspNetPager1_input" onkeydown="ANP_keydown(event,'AspNetPager1_btn');" style="width:30px;width:12px; height:14px;" />页 <input type="Button" name="AspNetPager1" id="AspNetPager1_btn" value=" GO " onclick="if(ANP_checkInput('AspNetPager1_input',68)){ANP_goToPage(document.getElementById('AspNetPager1_input'));}" />
+</div>
+</div>
+<!-- AspNetPager V7.0.2 for VS2005 & VS2008 End -->
+
+                   
+                        </span>
+                    </div> 
+                    </div>
+                 </div>
+              </div>                      
+        </div> 
+        
+ <link rel="Stylesheet" type="text/css" href="../css/style.css" />
+<div id="foot" class="clear">
+<div style="width:70px; height:auto; float:left;">
+<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/20/304/0000/45002969/CA203040000450029690001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+<div style="margin-left:100px; float:left;">
+    ------------------ 东莞市卫生监督所 ------------------<br />
+    联系地址：东莞市城市学院路178号  联系电话：0769-22625880  投诉电话：0769-22625902  传真：0769-22625330<br />
+    CopyRight © 2003 by 东莞市卫生监督所 如有意见和建议 Email To: dgwsjd@163.com<br />
+    创意制作、技术支持  © 2011 <a target="_blank" href="http://www.csrj.com"><u style="color:#000000;text-decoration:none;">创实软件</u></a> | <a href="/Manager/LoginManager.aspx" ><u style="color:#000000;text-decoration:none;">后-台-管-理</u></a> | <a href="/dztzList.aspx" ><u style="color:#000000;text-decoration:none;">电子台帐</u></a> 
+    备案号：<a target="_blank" href="http://www.miitbeian.gov.cn"><u style="color:#000000;text-decoration:none;">粤ICP备12089772号-1</u></a><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44190002000854"><img alt="" src="../Images/bagajds.png" />粤公网安备 44190002000854号</a><br />
+    您是本站的第<span id="Header3_Label1">15319364</span>位访问者
+</div>
+<a href="http://webscan.360.cn/index/checkwebsite/url/www.dgwsjd.gov.cn"><img border="0" src="http://img.webscan.360.cn/status/pai/hash/0ab6fe04d9646c725540d7d342d2bcdd"/></a>
+</div>
+                       
+    </div>
+    </form>
+</body>
+</html>

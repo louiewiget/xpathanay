@@ -12,6 +12,7 @@ class SchemeEntity(object):
         self.url_xpath = ""
         self.date_xpath = ""
         self.encoding = ""
+        self.page_loader = 0
 
     def getSiteName(self):
         return self.site_name
@@ -42,3 +43,6 @@ class SchemeEntity(object):
 
     def getEncoding(self):
         return self.encoding
+
+    def getPageLoader(self):
+        return self.page_loader

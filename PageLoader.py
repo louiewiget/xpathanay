@@ -2,13 +2,20 @@
 
 import requests
 import commands
-
+import os
 import logging
 
 class PageLoader(object):
 
-    def loadUrl(self, url):
-        return self.loadUrlByRequests(url)
+
+    def loadUrl(self, url, loader):
+        try:
+            funcStr = "loadUrlBy" + loader
+            loaderHandler = getattr(self, funcStr)
+            return loaderHandler(url)
+        except Exception as e:
+            logging.warning("loader[%s]  is not exists, using default Requests instead[error:%s]" % (loader, e))
+            return self.loadUrlByRequests(url)
 
     def loadUrlByRequests(self, url):
         headers = { "Accept":"text/html,application/xhtml+xml,application/xml;",
@@ -27,12 +34,9 @@ class PageLoader(object):
     def loadUrlByPhantomjs(self, url):
         if not url.startswith("http"):
             url = "http://%s" % url
-        cmd = "phantomjs loadPage.js %s" % url
+        cmd = "phantomjs loadPage.js \"%s\"" % url
         logging.info(cmd)
-        status, output = commands.getstatusoutput(cmd)
-        print cmd
-        print output
-        if status == 0:
-            return output
-        else:
-            return 0
+        pipe = os.popen(cmd, "r")
+        output = pipe.read()
+        status = pipe.close()
+        return output

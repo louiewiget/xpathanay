@@ -1,0 +1,123 @@
+WARNING: 06-29 09:46:03: PageLoader.py:17 * 45120 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:46:17: PageLoader.py:17 * 45588 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:46:37: PageLoader.py:17 * 47368 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:47:40: PageLoader.py:17 * 42740 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:47:40: XpathAnaylize.py:63 * 42740 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print title
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 4: illegal multibyte sequence
+]
+WARNING: 06-29 09:48:05: PageLoader.py:17 * 28444 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:48:06: XpathAnaylize.py:63 * 28444 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print title
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 4: illegal multibyte sequence
+]
+WARNING: 06-29 09:48:58: PageLoader.py:17 * 44812 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:48:58: XpathAnaylize.py:63 * 44812 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print title
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 4: illegal multibyte sequence
+]
+WARNING: 06-29 09:49:10: PageLoader.py:17 * 42764 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:49:11: XpathAnaylize.py:63 * 42764 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 101, in anaylize
+    title = self.tostr(titleRet[0]).strip()
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 154, in tostr
+    print element.title()
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 4: illegal multibyte sequence
+]
+WARNING: 06-29 09:49:27: PageLoader.py:17 * 45236 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:49:28: XpathAnaylize.py:63 * 45236 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print title
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 4: illegal multibyte sequence
+]
+WARNING: 06-29 09:49:57: PageLoader.py:17 * 46632 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:49:57: XpathAnaylize.py:63 * 46632 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print title
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 4: illegal multibyte sequence
+]
+WARNING: 06-29 09:50:09: PageLoader.py:17 * 47024 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:50:09: XpathAnaylize.py:63 * 47024 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print title
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 4: illegal multibyte sequence
+]
+WARNING: 06-29 09:50:23: PageLoader.py:17 * 43956 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:50:23: XpathAnaylize.py:63 * 43956 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print ("[%s-%s] %s %s %s" % (element.getSiteName(), element.getCategoryName(), title, url, date))
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 20: illegal multibyte sequence
+]
+WARNING: 06-29 09:51:40: PageLoader.py:17 * 38908 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:51:40: XpathAnaylize.py:63 * 38908 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print ("[%s-%s] %s %s %s" % (element.getSiteName(), element.getCategoryName(), title, url, date))
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 20: illegal multibyte sequence
+]
+WARNING: 06-29 09:52:45: PageLoader.py:17 * 47800 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:52:45: XpathAnaylize.py:63 * 47800 anaylize page fail[decode() argument 2 must be string, not None][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 101, in anaylize
+    title = self.tostr(titleRet[0]).strip()
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 154, in tostr
+    return element.title().decode('utf-8', errors=None)
+TypeError: decode() argument 2 must be string, not None
+]
+WARNING: 06-29 09:52:48: PageLoader.py:17 * 46536 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:52:48: XpathAnaylize.py:63 * 46536 anaylize page fail[decode() argument 2 must be string, not None][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 101, in anaylize
+    title = self.tostr(titleRet[0]).strip()
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 154, in tostr
+    return element.title().decode('utf-8', errors=None)
+TypeError: decode() argument 2 must be string, not None
+]
+WARNING: 06-29 09:53:15: PageLoader.py:17 * 46648 loader[0]  is not exists, using default Requests instead[error:'PageLoader' object has no attribute 'loadUrlBy0']
+WARNING: 06-29 09:53:15: XpathAnaylize.py:63 * 46648 anaylize page fail[][Traceback (most recent call last):
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 61, in run
+    self.anaylize(pageContent, element)
+  File "C:\Users\guminli\Desktop\xpathanay\XpathAnaylize.py", line 140, in anaylize
+    self.appender.perform(title, url, dateStr, element)
+  File "C:\Users\guminli\Desktop\xpathanay\BaseAppender.py", line 10, in perform
+    print ("[%s-%s] %s %s %s" % (element.getSiteName(), element.getCategoryName(), title, url, date))
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u2022' in position 20: illegal multibyte sequence
+]

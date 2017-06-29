@@ -11,6 +11,8 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 import traceback
+import HTMLParser
+
 
 import lxml.html.soupparser as soupparser
 import lxml.etree as etree
@@ -50,7 +52,7 @@ class XpathAnaylize(threading.Thread):
             try:
                 element = self.queue.get_nowait()
                 try:
-                    pageContent = PageLoader().loadUrl(element.getCategoryUrl())
+                    pageContent = PageLoader().loadUrl(element.getCategoryUrl(), loader=element.getPageLoader())
                     pageContent = pageContent.decode(element.getEncoding())
                 except Exception as e:
                     logging.warning("load page and try decode from [%s] fail[%s]" % (element.getEncoding(), e.message))
@@ -96,19 +98,29 @@ class XpathAnaylize(threading.Thread):
             if len(titleRet) < 1:
                 logging.warning("title xpath has no result[%s]" % titleXpath[0])
                 continue
-            title = titleRet[0].strip()
+            title = self.tostr(titleRet[0]).strip()
+            if len(titleXpath) > 1:
+                result = self.extractValue(title, titleXpath[1])
+                title = result if result is not None else title
+
+            # 此处尝试进行 html 转码
+            try:
+                html_parser = HTMLParser.HTMLParser()
+                title = html_parser.unescape(title)
+            except Exception as e:
+                logging.warn(e)
 
             urlRet = area.xpath(urlXpath[0])
             if len(urlRet) < 1:
                 logging.warning("url xpath has no result[%s]" % urlXpath[0])
                 continue
-            url = urlRet[0].strip()
+            url = self.tostr(urlRet[0]).strip()
 
             dateRet = area.xpath(dateXpath[0])
-            if len(urlRet) < 1:
+            if len(dateRet) < 1:
                 logging.warning("date xpath has no result[%s]" % dateXpath[0])
                 continue
-            dateRaw = dateRet[0].strip()
+            dateRaw = self.tostr(dateRet[0]).strip()
 
             if len(urlXpath) > 1:
                 result = self.extractValue(url, urlXpath[1])
@@ -126,6 +138,7 @@ class XpathAnaylize(threading.Thread):
             date = time.strptime(dateRaw, dateXpath[1])
             dateStr = "%s-%s-%s" % (date.tm_year, date.tm_mon, date.tm_mday)
             self.appender.perform(title, url, dateStr, element)
+
     def extractValue(self, raw, patternStr):
         pattern = re.compile(patternStr)
         result = pattern.findall(raw)
@@ -133,3 +146,11 @@ class XpathAnaylize(threading.Thread):
             return result[0]
         else:
             return None
+
+    def tostr(self, element):
+        if isinstance(element, str):
+            return element
+        elif isinstance(element, etree._ElementUnicodeResult):
+            return element.title().decode('utf-8', errors='ignore')
+        else:
+            return etree.tostring(element)

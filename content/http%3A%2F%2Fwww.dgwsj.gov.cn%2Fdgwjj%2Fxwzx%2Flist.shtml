@@ -1,0 +1,559 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>
+新闻资讯_东莞市卫生和计划生育局</title>
+<meta name="others" content="页面生成时间 2017-06-07 15:26:42" />
+<link href="../xhtml/css/index.css" rel="stylesheet"/>
+<link href="../xhtml/css/page.css" rel="stylesheet" type="text/css" />
+<link href="http://libs.dg.gov.cn/code/xhtml/css/common.css" rel="stylesheet" />
+<script src="http://libs.dg.gov.cn/code/xhtml/js/jquery/172/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="http://libs.dg.gov.cn/code/xhtml/js/page.js"></script>
+<script type="text/javascript">	
+	$(document).ready(function(){
+		$(".con-left a").each(function(){
+			if($.trim($(this).text())==$.trim($(".div1").text())){
+				$(this).addClass("linow");
+			}
+		})
+	});
+</script>
+</head>
+<body style="background:none #F0F0F0">
+<div class="header">
+  	<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge; IE=10;" >
+<title>东莞市卫生和计划生育局</title>
+<meta name="others" content="页面生成时间 2017-06-19 11:19:59" />
+<link href="/dgwjj/xhtml/css/index.css" rel="stylesheet"/>
+<link rel="stylesheet" href="/dgwjj/xhtml/css/menu.css" type="text/css" />
+<link href="http://libs.dg.gov.cn/code/xhtml/css/common.css" rel="stylesheet" />
+<script src="http://libs.dg.gov.cn/code/xhtml/js/jquery/181/jquery.js"></script>
+<script type="text/javascript" language="javascript" src="/dgwjj/xhtml/js/dropdown.class.demo.js"></script>
+
+<script>
+
+ function checkSubmit(){
+ if(document.getElementById('keywords').value==''||document.getElementById('keywords').value=='请输入关键字')
+	alert('请输关键字！');
+ else
+	document.pageform.submit();
+ 
+ }
+
+</script>
+</head>
+
+<body>
+<!--头部-->
+  <div class="top">
+    <div class="main">
+    <div class="top_logpic">
+    	<div class="fl"><a href="/dgwjj/index.shtml" target="_parent"><img src="/dgwjj/xhtml/images/wsj_logo.png"></a></div>
+      <div class="dat fr font2">
+        <div class="weather mar-t">
+          <marquee style="width:200px; float:left;  margin-right:10px; line-height:22px; height:22px; *height:18px; *line-height:18px;" direction="left" behavior="SCROLL" scrollamount="2" scrolldelay="2" height="22" onMouseOver="stop()" onMouseOut="start()">
+          <script language="JavaScript" src="http://libs.dg.gov.cn/code/xhtml/js/date.js"></script>
+          <script language="JavaScript" src="http://libs.dg.gov.cn/attachment/weather/weather.js"></script>
+          </marquee>
+        </div>
+       <div class="fr grey"><!--简体版 | English--></div>
+      </div>
+        <div class="cl"></div>
+    </div></div>
+    <div id="pic">
+<!--首头部背景图片切换-->
+<iframe style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" height="132" src="/dgwjj/topgg/top_pic.shtml" frameborder="0" width="100%" scrolling="no">
+</iframe></div>
+    </div>
+    
+    <div id="nav">
+<div id="page-wrap" class="blues">
+        <!-- jDropDown menu -->
+        <ul id="jDropDown" >
+          <li><a href="/dgwjj/index.shtml" target="_parent">网站首页</a> </li>
+          <li><a href="http://xxgk.dg.gov.cn/304219773/zwgkList.shtml" target="_blank">政务公开</a>
+            <div class="column_2" style="margin-left: 0px;">
+              <div class="column">
+                <ul>
+                  <li><a href="/304219773/xxgkzn/wjjlist_tt.shtml"  target="_parent">政府信息公开指南</a></li>
+                                     <li><a href="/304219773/0900/wjjlist2.shtml"  target="_parent">政府信息公开年度报告</a></li>
+                                     <li><a href="http://xxgk.dg.gov.cn/sofpro/otherproject/ysq/gecs_ysq_web_add_1.jsp?SLBM=0226" target="_blank">依申请公开</a> </li>
+                                     <li><a href="/304219773/0100/wjjlist2.shtml"  target="_parent">组织机构</a></li>
+                                     <li><a href="/304219773/0200/wjjlist2.shtml"  target="_parent">政策文件</a></li>
+                                     <li><a href="/304219773/0300/wjjlist2.shtml"  target="_parent">财政信息</a></li>
+                                     <li><a href="/304219773/0400/wjjlist2.shtml"  target="_parent">规划计划</a></li>
+                                     <li><a href="/304219773/0500/wjjlist2.shtml"  target="_parent">应急管理</a></li>
+                                     
+                </ul>
+              </div>
+              <div class="column">
+                <ul>
+                 <li><a href="/304219773/0600/wjjlist2.shtml"  target="_parent">统计信息</a></li>
+                  <li><a href="/304219773/0700/wjjlist2.shtml"  target="_parent">业务工作</a></li>
+                   <li><a href="/304219773/0800/wjjlist2.shtml" target="_parent">其他</a></li>
+                   <li><a href="http://www.dg.gov.cn/business/htmlfiles/cndg/s37081/index.htm"  target="_blank">重点领域信息公开</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="/dgwjj/xwzx/list.shtml"  target="_parent">新闻资讯</a>
+            <div class="column_1" style="margin-left: 0px;">
+              <div class="column">
+                <ul>
+ 
+
+                    <li>
+                      <a href="/dgwjj/jcdt/list2.shtml"  target="_parent" title='基层信息' >基层信息</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/tpxw/list_pic.shtml"  target="_parent" title='图片新闻' >图片新闻</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/zhzx/list2.shtml"  target="_parent" title='综合资讯' >综合资讯</a>
+                    </li>
+
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a>办事服务</a>
+            <div class="column_1" style="margin-left:0px;">
+              <div class="column">
+                <ul>
+ 
+
+                    <li>
+                      <a href="http://shenbao.dg.gov.cn/xzspweb/webcenternologin/findServiceItemByWhere.action?gId=42&flag=0"  target="_blank" title='网上办事' >网上办事</a>
+                    </li>
+
+                    <li>
+                      <a href="http://dg.91160.com/"  target="_blank" title='网上挂号' >网上挂号</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/xzzq/list2.shtml"  target="_blank" title='下载专区' >下载专区</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/bszn/list2.shtml"  target="_blank" title='相关办事指南' >相关办事指南</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/wsjsjg/list.shtml"  target="_blank" title='卫生计生机构' >卫生计生机构</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/cxfw/list_tt.shtml"  target="_blank" title='查询服务' >查询服务</a>
+                    </li>
+
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="/dgwjj/gszx/list_tt.shtml"  target="_parent">公众互动</a>
+            <div class="column_1" style="margin-left:0px;">
+              <div class="column">
+                <ul>
+ 
+
+                    <li>
+                      <a href="/dgwjj/gszx/list_tt.shtml"  target="_blank" title='网上咨询' >网上咨询</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/myzj/list_tt.shtml"  target="_blank" title='民意征集' >民意征集</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/zxdc/list_tt.shtml"  target="_blank" title='在线调查' >在线调查</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/tsdh/list_tt.shtml"  target="_blank" title='投诉电话 ' >投诉电话 </a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/cjwtt/list2.shtml"  target="_blank" title='健康宣传' >健康宣传</a>
+                    </li>
+
+                    <li>
+                      <a href="http://wsxf.dg.gov.cn/"  target="_blank" title='网上信访' >网上信访</a>
+                    </li>
+
+                    <li>
+                      <a href="http://12345.dg.gov.cn/"  target="_blank" title='12345政府热线' >12345政府热线</a>
+                    </li>
+
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="/dgwjj/ztpd/ztlm_index.shtml"  target="_parent">专题频道</a>
+            <div class="column_5" style="left:-520px;">
+              <div class="column">
+                <ul>
+ 
+
+                    <li>
+                      <a href="/dgwjj/spgg/list2.shtml"  target="_blank" title='行政审批与商事改革' >行政审批与商事改革</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/zpgg/list2.shtml"  target="_blank" title='公开招聘' >公开招聘</a>
+                    </li>
+
+                    <li>
+                      <a href="http://sqws.dg.gov.cn/"  target="_blank" title='社区卫生服务' >社区卫生服务</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/jdzf/list2.shtml"  target="_blank" title='综合监督' >综合监督</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/twzt/list2.shtml"  target="_blank" title='团委专题' >团委专题</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/ffcl/list2.shtml"  target="_blank" title='反腐倡廉' >反腐倡廉</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/ygzt/list2.shtml"  target="_blank" title='医改专题' >医改专题</a>
+                    </li>
+
+                    <li>
+                      <a href="http://www.dgwsxx.gov.cn/"  target="_blank" title='卫生信息化' >卫生信息化</a>
+                    </li>
+
+                </ul>
+              </div>
+              
+              <div class="column">
+                <ul>
+ 
+
+                    <li>
+                      <a href="http://www.dgyxh.org.cn/"  target="_blank" title='东莞市医学会' >东莞市医学会</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/zbyf/list2.shtml"  target="_blank" title='疾病预防' >疾病预防</a>
+                    </li>
+
+                    <li>
+                      <a href="http://dgblood.org.cn:9091/"  target="_blank" title='无偿献血' >无偿献血</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/hfjs/list2.shtml"  target="_blank" title='行风建设' >行风建设</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/jsyjgl/list2.shtml"  target="_blank" title='计生药具管理' >计生药具管理</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/cjwmws/list_pic.shtml"  target="_blank" title='创卫专题' >创卫专题</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/cjsfcs/list2.shtml"  target="_blank" title='创建全国质量强市示范城市' >创建全国质量强市示范城市</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/yljg/list2.shtml"  target="_blank" title='医疗机构‘黑名单’' >医疗机构‘黑名单’</a>
+                    </li>
+
+                </ul>
+              </div>
+              
+              <div class="column">
+                <ul>
+ 
+
+                    <li>
+                      <a href="/dgwjj/wsyj/list2.shtml"  target="_blank" title='卫生应急' >卫生应急</a>
+                    </li>
+
+                    <li>
+                      <a href="http://www.dghlxh.com/"  target="_blank" title='东莞市护理学会' >东莞市护理学会</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/jszlfz/list2.shtml"  target="_blank" title='计生奖励扶助' >计生奖励扶助</a>
+                    </li>
+
+                    <li>
+                      <a href="http://www.jkb.com.cn/video/"  target="_blank" title='国家基本药物临床应用专题' >国家基本药物临床应用专题</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/gzdt/list2.shtml"  target="_blank" title='科技教育' >科技教育</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/fjxcjy/list2.shtml"  target="_blank" title='法制宣传教育' >法制宣传教育</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/wjgygg/list2.shtml"  target="_blank" title='卫生计生公益广告' >卫生计生公益广告</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/dyjsxd/list2.shtml"  target="_blank" title='大医精诚精神在行动' >大医精诚精神在行动</a>
+                    </li>
+
+                </ul>
+              </div>
+              
+              <div class="column">
+                <ul>
+ 
+
+                    <li>
+                      <a href="/dgwjj/lxgz/list2.shtml"  target="_blank" title='“两学一做”学习教育' >“两学一做”学习教育</a>
+                    </li>
+
+                    <li>
+                      <a href="/dgwjj/ylfwgk/list.shtml"  target="_blank" title='医疗服务信息公开' >医疗服务信息公开</a>
+                    </li>
+
+                </ul>
+              </div>
+              
+            </div>
+          </li>
+        </ul>
+         <div class="search fr">
+        <div class="search_div mar-t">
+
+         <form name="pageform" method="post" action="http://app.dg.gov.cn/u/search/dgwjj" id="pageform" target="_blank">
+         <input onBlur="if(this.value==''){this.value='请输入关键字'}" 
+name="keywords" id="keywords" 
+onfocus="this.value=''" 
+maxlength="50" value="请输入关键字" />
+         
+      
+        <img src="/dgwjj/xhtml/images/search.jpg "  onClick="checkSubmit();" style="cursor:pointer;">
+         </form>   </div>
+         </div>
+      </div>
+    </div>
+    <!--头部结束-->
+</body>
+</html> 
+  <div class="center mar-t2">
+    <div class="cen-div bg-color">
+      <div class="con_title_left fl_left">
+        <div class=" font24 padd-b">
+          <div class="list_left_title">
+            新闻资讯
+          </div>
+        </div>
+        <span><img  src="../xhtml/images/wz.png"  class="mar_right fl "/>您现在的位置 : </span>
+<a href='/dgwjj/index.shtml'  target="_parent">首页</a>&nbsp;>&nbsp;新闻资讯
+
+        <div class="div1" style="display:none;">新闻资讯
+      </div>
+      <div class="cen-div-1 mar-t">
+        <div class="con-left fl ">
+          <ul>
+ 
+
+              <li>
+                <a href="/dgwjj/jcdt/list2.shtml"  target="_parent" title='基层信息' >基层信息</a>
+              </li>
+
+              <li>
+                <a href="/dgwjj/tpxw/list_pic.shtml"  target="_parent" title='图片新闻' >图片新闻</a>
+              </li>
+
+              <li>
+                <a href="/dgwjj/zhzx/list2.shtml"  target="_parent" title='综合资讯' >综合资讯</a>
+              </li>
+
+          </ul>
+        </div>
+        <div class="con-right fr mar-l-2">
+ 
+
+            <div class="list_div mar-top2 ">
+              <div class="list-right_title fon_1">
+                <a href="/dgwjj/jcdt/201706/dbc6de157f0c4626a505f9c3081f0689.shtml" target="_blank"  >石龙镇首推教材套，打造青春期性教育新模式——石龙镇《护航青春》青春期性教育教材套发布会</a>
+              </div>
+              <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0" style="color:#9E9E9E;">
+                <tr>
+                  <td width="50%" align="left">发布时间：
+                    2017-06-06</td>
+                  <td width="50%" align="right"  style="padding-top:5px" ><span class="column-name">
+                    <a href="/dgwjj/jcdt/list2.shtml" target="_parent"  >基层信息</a>
+                    </span></td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="list_div mar-top2 ">
+              <div class="list-right_title fon_1">
+                <a href="/dgwjj/tpxw/201705/6b513ea88da547fc8a9c338325c78294.shtml" target="_blank"  >市卫生计生局召开动员大会 推进创建全国文明城市“四连冠”</a>
+              </div>
+              <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0" style="color:#9E9E9E;">
+                <tr>
+                  <td width="50%" align="left">发布时间：
+                    2017-05-05</td>
+                  <td width="50%" align="right"  style="padding-top:5px" ><span class="column-name">
+                    <a href="/dgwjj/tpxw/list_pic.shtml" target="_parent"  >图片新闻</a>
+                    </span></td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="list_div mar-top2 ">
+              <div class="list-right_title fon_1">
+                <a href="/dgwjj/jcdt/201704/74e91baf9f8c4d9191c1c59d0bbaffa8.shtml" target="_blank"  >护士姐姐走进大朗校园 为青春前期女生讲授健康知识</a>
+              </div>
+              <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0" style="color:#9E9E9E;">
+                <tr>
+                  <td width="50%" align="left">发布时间：
+                    2017-04-21</td>
+                  <td width="50%" align="right"  style="padding-top:5px" ><span class="column-name">
+                    <a href="/dgwjj/jcdt/list2.shtml" target="_parent"  >基层信息</a>
+                    </span></td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="list_div mar-top2 ">
+              <div class="list-right_title fon_1">
+                <a href="/dgwjj/jcdt/201703/9ecf4fbf697b49e28f87d0f305998179.shtml" target="_blank"  >关注健康，关爱新市民——市卫生计生局副局长叶润娣赴石龙镇调研流动人口健康促进工作</a>
+              </div>
+              <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0" style="color:#9E9E9E;">
+                <tr>
+                  <td width="50%" align="left">发布时间：
+                    2017-03-22</td>
+                  <td width="50%" align="right"  style="padding-top:5px" ><span class="column-name">
+                    <a href="/dgwjj/jcdt/list2.shtml" target="_parent"  >基层信息</a>
+                    </span></td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="list_div mar-top2 ">
+              <div class="list-right_title fon_1">
+                <a href="/dgwjj/jcdt/201702/ae161085dae84762b7c429c6bd600e08.shtml" target="_blank"  >狮怀莞邑•健康同行</a>
+              </div>
+              <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0" style="color:#9E9E9E;">
+                <tr>
+                  <td width="50%" align="left">发布时间：
+                    2017-02-28</td>
+                  <td width="50%" align="right"  style="padding-top:5px" ><span class="column-name">
+                    <a href="/dgwjj/jcdt/list2.shtml" target="_parent"  >基层信息</a>
+                    </span></td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="list_div mar-top2 ">
+              <div class="list-right_title fon_1">
+                <a href="/dgwjj/jcdt/201702/d058b7444f3647bc89db95d3d0764c32.shtml" target="_blank"  >幸福家庭  快乐参与   十万群众巡游祈福共享嘉年华</a>
+              </div>
+              <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0" style="color:#9E9E9E;">
+                <tr>
+                  <td width="50%" align="left">发布时间：
+                    2017-02-21</td>
+                  <td width="50%" align="right"  style="padding-top:5px" ><span class="column-name">
+                    <a href="/dgwjj/jcdt/list2.shtml" target="_parent"  >基层信息</a>
+                    </span></td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="list_div mar-top2 ">
+              <div class="list-right_title fon_1">
+                <a href="/dgwjj/jcdt/201702/bfd4c254c3b145a5b3be11c3af242ce5.shtml" target="_blank"  >桥头医院与中山大学孙逸仙纪念医院签署医疗技术合作协议</a>
+              </div>
+              <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0" style="color:#9E9E9E;">
+                <tr>
+                  <td width="50%" align="left">发布时间：
+                    2017-02-20</td>
+                  <td width="50%" align="right"  style="padding-top:5px" ><span class="column-name">
+                    <a href="/dgwjj/jcdt/list2.shtml" target="_parent"  >基层信息</a>
+                    </span></td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="list_div mar-top2 ">
+              <div class="list-right_title fon_1">
+                <a href="/dgwjj/tpxw/201702/432ec2908dce41769ee3aff190552b68.shtml" target="_blank"  >开好局   起好步 喻丽君副市长莅临我局调研指导工作</a>
+              </div>
+              <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0" style="color:#9E9E9E;">
+                <tr>
+                  <td width="50%" align="left">发布时间：
+                    2017-02-06</td>
+                  <td width="50%" align="right"  style="padding-top:5px" ><span class="column-name">
+                    <a href="/304219773/0802/list.shtml" target="_parent"  >工作动态</a>
+                    </span></td>
+                </tr>
+              </table>
+            </div>
+<script type="text/javascript" src="/dgwjj/xhtml/js/page.js"></script><script>window.onload=function() {createPageHTML('page_div',118, 1,'list','shtml',944);}</script>
+          <div class="fany">
+            <div class="page_num">
+              <div id="page_div"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="bottom">
+    <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>底部</title>
+<meta name="others" content="页面生成时间 2017-06-28 10:52:30" />
+<link href="../xhtml/css/index.css" rel="stylesheet"/>
+<link href="http://libs.dg.gov.cn/code/xhtml/css/common.css" rel="stylesheet" />
+</head>
+
+<body>
+<div class="bottom">
+<div class="bottom_dov">
+ 
+
+      <table width="80%" border="0" cellpadding="0" cellspacing="0" style="height: 50px; float:left;">
+  <tbody>
+    <tr>
+      <td align="center" style="height:30px;"><a href="/dgwjj/ystk/201609/fbe743407cd2427985c02cc087367fba.shtml" target="_blank">隐私条款</a> | <a href="/dgwjj/mzsm/201609/a91a0c474b874331bd3e48fc0ae01723.shtml" target="_blank">免责声明</a> | <a href="/dgwjj/wywm/201609/681dfbb09b34416587d08f90592421e9.shtml" target="_blank">关于我们</a> | <a href="/dgwjj/lxwm/201609/d8488953b2994c0db8656189aaf893db.shtml" target="_blank">联系我们</a> | <a href="/dgwjj/ljwm/201609/6f7e729bbec0479d9d3aea00bef925f6.shtml" target="_blank">链接我们</a> | <a href="/dgwjj/wzdt/201704/41e877fffeae4461b23e0bdd281a50be.shtml" target="_blank">网站地图</a> | <a href="/dgwjj/nbdlrk/tzds.shtml" target="_blank">内部网登录入口</a></td>
+    </tr>
+    <tr>
+      <td align="center" style="height: 16px; font-size:12px; color:#888888">地址：东莞市南城区三元路8号报业大厦附楼&nbsp;&nbsp;&nbsp;TEL：0769-23281111&nbsp;&nbsp;&nbsp;网站标识码：4419000070</td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center" style="height: 16px; font-size:12px; color:#888888">版权所有：东莞市卫生和计划生育局&nbsp;&nbsp;&nbsp;粤ICP备4419003013341号&nbsp;&nbsp;&nbsp;技术支持：<a href="http://www.ucap.com.cn/" target="_blank">开普云</a>&nbsp;&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44190002000533"><img src="/cmsresources/cc/68/99f4891e494493816d63d305e516_1.0.png" alt="" border="0"></a><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44190002000533" target="_blank">粤公网安备 44190002000533号</a></td>
+    </tr>
+  </tbody>
+</table>
+<div class="float:right; ">
+<script id="_jiucuo_" sitecode='4419000070' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>
+</div>
+
+</div>
+</div>
+</body>
+</html> 
+  </div>
+</body>
+</html>
